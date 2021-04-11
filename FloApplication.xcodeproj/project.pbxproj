@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F854FEC32600B398008005D6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F854FEC22600B398008005D6 /* SecondViewController.swift */; };
+		F892FD0525F8A1EB00A41E24 /* SongsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892FD0425F8A1EB00A41E24 /* SongsInfo.swift */; };
+		F89F45B825F4B639003129B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F45B725F4B639003129B9 /* AppDelegate.swift */; };
+		F89F45BA25F4B639003129B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F45B925F4B639003129B9 /* SceneDelegate.swift */; };
+		F89F45BF25F4B639003129B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89F45BD25F4B639003129B9 /* Main.storyboard */; };
+		F89F45C225F4B639003129B9 /* FloApplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F89F45C025F4B639003129B9 /* FloApplication.xcdatamodeld */; };
+		F89F45C425F4B63A003129B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89F45C325F4B63A003129B9 /* Assets.xcassets */; };
+		F89F45C725F4B63A003129B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89F45C525F4B63A003129B9 /* LaunchScreen.storyboard */; };
+		F89F45D225F4B63B003129B9 /* FloApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F45D125F4B63B003129B9 /* FloApplicationTests.swift */; };
+		F89F45DD25F4B63B003129B9 /* FloApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F45DC25F4B63B003129B9 /* FloApplicationUITests.swift */; };
+		F8D3342825FB55E600045C09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D3342725FB55E600045C09 /* ViewController.swift */; };
+		F8D3343B25FB59AD00045C09 /* slider in Resources */ = {isa = PBXBuildFile; fileRef = F8D3343A25FB59AD00045C09 /* slider */; };
+		F8D3344325FCD40400045C09 /* getTimeAndLyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D3344225FCD40400045C09 /* getTimeAndLyrics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F89F45CE25F4B63B003129B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89F45AC25F4B638003129B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89F45B325F4B638003129B9;
+			remoteInfo = FloApplication;
+		};
+		F89F45D925F4B63B003129B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F89F45AC25F4B638003129B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89F45B325F4B638003129B9;
+			remoteInfo = FloApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F854FEC22600B398008005D6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F892FD0425F8A1EB00A41E24 /* SongsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsInfo.swift; sourceTree = "<group>"; };
+		F89F45B425F4B639003129B9 /* FloApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89F45B725F4B639003129B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F89F45B925F4B639003129B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F89F45BE25F4B639003129B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89F45C125F4B639003129B9 /* FloApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FloApplication.xcdatamodel; sourceTree = "<group>"; };
+		F89F45C325F4B63A003129B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89F45C625F4B63A003129B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F89F45C825F4B63A003129B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89F45CD25F4B63B003129B9 /* FloApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89F45D125F4B63B003129B9 /* FloApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloApplicationTests.swift; sourceTree = "<group>"; };
+		F89F45D325F4B63B003129B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89F45D825F4B63B003129B9 /* FloApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89F45DC25F4B63B003129B9 /* FloApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloApplicationUITests.swift; sourceTree = "<group>"; };
+		F89F45DE25F4B63B003129B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D3342725FB55E600045C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		F8D3343A25FB59AD00045C09 /* slider */ = {isa = PBXFileReference; lastKnownFileType = text; path = slider; sourceTree = "<group>"; };
+		F8D3344225FCD40400045C09 /* getTimeAndLyrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getTimeAndLyrics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89F45B125F4B638003129B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F45CA25F4B63B003129B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F45D525F4B63B003129B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F89F45AB25F4B638003129B9 = {
+			isa = PBXGroup;
+			children = (
+				F8D3343A25FB59AD00045C09 /* slider */,
+				F89F45B625F4B639003129B9 /* FloApplication */,
+				F89F45D025F4B63B003129B9 /* FloApplicationTests */,
+				F89F45DB25F4B63B003129B9 /* FloApplicationUITests */,
+				F89F45B525F4B639003129B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F89F45B525F4B639003129B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89F45B425F4B639003129B9 /* FloApplication.app */,
+				F89F45CD25F4B63B003129B9 /* FloApplicationTests.xctest */,
+				F89F45D825F4B63B003129B9 /* FloApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89F45B625F4B639003129B9 /* FloApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F89F45B725F4B639003129B9 /* AppDelegate.swift */,
+				F89F45B925F4B639003129B9 /* SceneDelegate.swift */,
+				F8D3342725FB55E600045C09 /* ViewController.swift */,
+				F854FEC22600B398008005D6 /* SecondViewController.swift */,
+				F8D3344225FCD40400045C09 /* getTimeAndLyrics.swift */,
+				F892FD0425F8A1EB00A41E24 /* SongsInfo.swift */,
+				F89F45BD25F4B639003129B9 /* Main.storyboard */,
+				F89F45C325F4B63A003129B9 /* Assets.xcassets */,
+				F89F45C525F4B63A003129B9 /* LaunchScreen.storyboard */,
+				F89F45C825F4B63A003129B9 /* Info.plist */,
+				F89F45C025F4B639003129B9 /* FloApplication.xcdatamodeld */,
+			);
+			path = FloApplication;
+			sourceTree = "<group>";
+		};
+		F89F45D025F4B63B003129B9 /* FloApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F89F45D125F4B63B003129B9 /* FloApplicationTests.swift */,
+				F89F45D325F4B63B003129B9 /* Info.plist */,
+			);
+			path = FloApplicationTests;
+			sourceTree = "<group>";
+		};
+		F89F45DB25F4B63B003129B9 /* FloApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F89F45DC25F4B63B003129B9 /* FloApplicationUITests.swift */,
+				F89F45DE25F4B63B003129B9 /* Info.plist */,
+			);
+			path = FloApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89F45B325F4B638003129B9 /* FloApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89F45E125F4B63B003129B9 /* Build configuration list for PBXNativeTarget "FloApplication" */;
+			buildPhases = (
+				F89F45B025F4B638003129B9 /* Sources */,
+				F89F45B125F4B638003129B9 /* Frameworks */,
+				F89F45B225F4B638003129B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloApplication;
+			productName = FloApplication;
+			productReference = F89F45B425F4B639003129B9 /* FloApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F89F45CC25F4B63B003129B9 /* FloApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89F45E425F4B63B003129B9 /* Build configuration list for PBXNativeTarget "FloApplicationTests" */;
+			buildPhases = (
+				F89F45C925F4B63B003129B9 /* Sources */,
+				F89F45CA25F4B63B003129B9 /* Frameworks */,
+				F89F45CB25F4B63B003129B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89F45CF25F4B63B003129B9 /* PBXTargetDependency */,
+			);
+			name = FloApplicationTests;
+			productName = FloApplicationTests;
+			productReference = F89F45CD25F4B63B003129B9 /* FloApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F89F45D725F4B63B003129B9 /* FloApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89F45E725F4B63B003129B9 /* Build configuration list for PBXNativeTarget "FloApplicationUITests" */;
+			buildPhases = (
+				F89F45D425F4B63B003129B9 /* Sources */,
+				F89F45D525F4B63B003129B9 /* Frameworks */,
+				F89F45D625F4B63B003129B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89F45DA25F4B63B003129B9 /* PBXTargetDependency */,
+			);
+			name = FloApplicationUITests;
+			productName = FloApplicationUITests;
+			productReference = F89F45D825F4B63B003129B9 /* FloApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F89F45AC25F4B638003129B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F89F45B325F4B638003129B9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F89F45CC25F4B63B003129B9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F89F45B325F4B638003129B9;
+					};
+					F89F45D725F4B63B003129B9 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F89F45B325F4B638003129B9;
+					};
+				};
+			};
+			buildConfigurationList = F89F45AF25F4B638003129B9 /* Build configuration list for PBXProject "FloApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F89F45AB25F4B638003129B9;
+			productRefGroup = F89F45B525F4B639003129B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89F45B325F4B638003129B9 /* FloApplication */,
+				F89F45CC25F4B63B003129B9 /* FloApplicationTests */,
+				F89F45D725F4B63B003129B9 /* FloApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89F45B225F4B638003129B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F45C725F4B63A003129B9 /* LaunchScreen.storyboard in Resources */,
+				F8D3343B25FB59AD00045C09 /* slider in Resources */,
+				F89F45C425F4B63A003129B9 /* Assets.xcassets in Resources */,
+				F89F45BF25F4B639003129B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F45CB25F4B63B003129B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F45D625F4B63B003129B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F89F45B025F4B638003129B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F45C225F4B639003129B9 /* FloApplication.xcdatamodeld in Sources */,
+				F8D3344325FCD40400045C09 /* getTimeAndLyrics.swift in Sources */,
+				F89F45B825F4B639003129B9 /* AppDelegate.swift in Sources */,
+				F89F45BA25F4B639003129B9 /* SceneDelegate.swift in Sources */,
+				F854FEC32600B398008005D6 /* SecondViewController.swift in Sources */,
+				F8D3342825FB55E600045C09 /* ViewController.swift in Sources */,
+				F892FD0525F8A1EB00A41E24 /* SongsInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F45C925F4B63B003129B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F45D225F4B63B003129B9 /* FloApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89F45D425F4B63B003129B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F45DD25F4B63B003129B9 /* FloApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F89F45CF25F4B63B003129B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89F45B325F4B638003129B9 /* FloApplication */;
+			targetProxy = F89F45CE25F4B63B003129B9 /* PBXContainerItemProxy */;
+		};
+		F89F45DA25F4B63B003129B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89F45B325F4B638003129B9 /* FloApplication */;
+			targetProxy = F89F45D925F4B63B003129B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F89F45BD25F4B639003129B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89F45BE25F4B639003129B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F89F45C525F4B63A003129B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89F45C625F4B63A003129B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89F45DF25F4B63B003129B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F89F45E025F4B63B003129B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89F45E225F4B63B003129B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPWLWTA7GD;
+				INFOPLIST_FILE = FloApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FloApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F89F45E325F4B63B003129B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPWLWTA7GD;
+				INFOPLIST_FILE = FloApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FloApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F89F45E525F4B63B003129B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPWLWTA7GD;
+				INFOPLIST_FILE = FloApplicationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FloApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloApplication.app/FloApplication";
+			};
+			name = Debug;
+		};
+		F89F45E625F4B63B003129B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPWLWTA7GD;
+				INFOPLIST_FILE = FloApplicationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FloApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloApplication.app/FloApplication";
+			};
+			name = Release;
+		};
+		F89F45E825F4B63B003129B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPWLWTA7GD;
+				INFOPLIST_FILE = FloApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FloApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloApplication;
+			};
+			name = Debug;
+		};
+		F89F45E925F4B63B003129B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VPWLWTA7GD;
+				INFOPLIST_FILE = FloApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FloApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloApplication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F89F45AF25F4B638003129B9 /* Build configuration list for PBXProject "FloApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89F45DF25F4B63B003129B9 /* Debug */,
+				F89F45E025F4B63B003129B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89F45E125F4B63B003129B9 /* Build configuration list for PBXNativeTarget "FloApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89F45E225F4B63B003129B9 /* Debug */,
+				F89F45E325F4B63B003129B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89F45E425F4B63B003129B9 /* Build configuration list for PBXNativeTarget "FloApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89F45E525F4B63B003129B9 /* Debug */,
+				F89F45E625F4B63B003129B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89F45E725F4B63B003129B9 /* Build configuration list for PBXNativeTarget "FloApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89F45E825F4B63B003129B9 /* Debug */,
+				F89F45E925F4B63B003129B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F89F45C025F4B639003129B9 /* FloApplication.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F89F45C125F4B639003129B9 /* FloApplication.xcdatamodel */,
+			);
+			currentVersion = F89F45C125F4B639003129B9 /* FloApplication.xcdatamodel */;
+			path = FloApplication.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F89F45AC25F4B638003129B9 /* Project object */;
+}
